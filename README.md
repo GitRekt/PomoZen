@@ -14,7 +14,8 @@ A simple, beautiful Pomodoro timer app built with React.
 
 ### Work Cycle
 
-![Work Cycle](public/work-cycle.png)
+![Work Cycle -1](public/work-cycle1.png)
+![Work Cycle -2](public/work-cycle2.png)
 
 ### Break Cycle
 
