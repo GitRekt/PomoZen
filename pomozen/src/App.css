@@ -1,0 +1,82 @@
+:root {
+  --work-primary: #ec7063;
+  --work-background: #f5b7b1;
+  --work-button-hover: #f1948a;
+
+  --break-primary: #98e4c2;
+  --break-background: #e8f7f0;
+  --break-button-hover: #7ed4aa;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.8s ease;
+}
+
+.background-break{
+  background-color: var(--break-background);
+}
+
+.background-work {
+  background-color: var(--work-background);
+}
+
+.pomodoro-container {
+  background-color: white;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.timer-label{
+  color: #4a4a4a;
+}
+
+.timer-display {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  transition: background-color 0.8s ease;
+}
+
+.timer-display.work {
+  color: var(--work-primary);
+}
+
+.timer-display.break {
+  color: var(--break-primary);
+}
+
+.control-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.control-button {
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+
+  transition: background-color 0.8s ease;
+}
+
+.control-button-work{
+  background-color: var(--work-primary);
+}
+
+.control-button-break{
+  background-color: var(--break-primary);
+}
+
+.play-pause-button {
+  width: 4rem;
+  height: 4rem;
+}
